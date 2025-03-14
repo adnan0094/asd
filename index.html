@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نشر الإعلانات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>منصة نشر الإعلانات</h1>
+        <form id="adForm">
+            <input type="text" id="adTitle" placeholder="عنوان الإعلان" required>
+            <textarea id="adDescription" placeholder="وصف الإعلان" required></textarea>
+            <button type="submit">نشر الإعلان</button>
+        </form>
+        <div id="adsContainer">
+            <h2>الإعلانات المنشورة</h2>
+            <ul id="adsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
